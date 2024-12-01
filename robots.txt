@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /mentions
+
+Sitemap: https://à-remplir/sitemap.xml
