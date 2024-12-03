@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #F7F3E9;
+    font-family: 'Poppins';
+}
+
+header {font-family: 'poppins'!important;}
+
+.hover-footer {
+    transition: 0.5s
+}
+
+
+.hover-footer:hover {
+    transition: 0.5s;
+    color: #ecd6b5;
+}
+
+.bouton-hero {
+    background-color: #CDF0A8;
+    color: #2d2c2c;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.bouton-hero:hover {
+    background-color: #2d2c2c;
+    color: #CDF0A8;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.section-h2 {
+    font-size: 4rem;
+    margin: 20px;
+}
