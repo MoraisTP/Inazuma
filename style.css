@@ -28,6 +28,10 @@ header {
     left: 0;
 }
 
+.fa-solid {font-size: 2rem; margin: 3px; transition: .5s;}
+
+.fa-solid:hover {color: #810707; scale: 1.1; transition: scale 1s;}
+
 .hover-footer {
     transition: 0.5s
 }
