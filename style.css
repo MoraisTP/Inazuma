@@ -119,6 +119,13 @@ strong {
     min-height: 100%!important;
 }
 
+.force-block {
+    display: block!important;
+}
+
+.force-width {
+    min-width: 100%;
+}
 
 /*Media page "index.html"*/
 
