@@ -129,10 +129,16 @@ strong {
 
 /*Media page "index.html"*/
 
+
+
 @media (max-width: 576px) {
     .section-h2 {
         font-size: 2rem;
         margin: 20px;
+    }
+    .profil-texte li {
+        font-size: 0.9rem;
+
     }
 }
 
