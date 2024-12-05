@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="fr">
 <head>
+<!--    Metas-->
     <meta charset="UTF-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta name="description"
@@ -11,14 +12,16 @@
     <meta content="Re-style : La boutique ultime de la deuxième main ! Donnez vie à vos vielles affaires..."
           property="og:description"/>
     <meta content="https://michalsnik.github.io/aos/" property="og:url"/>
+<!--    Fin metas-->
+<!--    Links-->
     <script src="https://kit.fontawesome.com/26d2d5baaa.js" crossorigin="anonymous"></script>
     <link href="favicon.svg" rel="shortcut icon" type="image/x-icon">
     <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet"/>
-
-
+<!--Fin Links-->
 </head>
 <body>
+<!--Début header-->
 <header class='border-b bg-[#F7F3E9] font-sans min-h-[60px] px-10 py-3 relative tracking-wide relative z-50 position: fixed'>
     <div class='flex flex-wrap items-center max-lg:gap-y-6 max-sm:gap-x-4'>
         <a href="index.html"><img src="./img/logo_restyle-trnsparent.png" alt="logo" class='w-12'/>
@@ -36,7 +39,7 @@
                             data-original="#000000"></path>
                 </svg>
             </button>
-
+<!--Ul menu (Accueil Catalogue Profil Inscription Contact)-->
             <ul
                     class='lg:flex lg:gap-x-10 lg:absolute lg:left-1/2 lg:-translate-x-1/2 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-2/3 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:px-10 max-lg:py-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
                 <li class='mb-6 hidden max-lg:block'>
@@ -66,7 +69,7 @@
                 </li>
             </ul>
         </div>
-
+<!--Icones Panier/Coeur en SVG-->
         <div class='flex items-center ml-auto space-x-8'>
         <span class="relative">
           <a href="./html/favoris.html"><svg xmlns="http://www.w3.org/2000/svg" width="20px"
@@ -109,14 +112,14 @@
 <!--Fin header -->
 
 <!-- Hero Section Hero Section Hero Section Hero Section Hero Section Hero Section Hero Section Hero Section Hero Section Hero Section-->
-
+<!--Mon BG-->
 <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
     <div class="absolute inset-0">
         <img src="./img/bg-kevin-laminto.jpg" alt="Deux filles"
              alt="Background Image" class="object-cover object-center w-full h-full"/>
         <div class="absolute inset-0 bg-black opacity-50"></div>
     </div>
-
+<!--Texte/Bouton-->
     <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
         <h1 class="text-5xl font-bold leading-tight mb-4">Donnez une deuxième vie à vos affaires !</h1>
         <p class="text-lg text-gray-300 mb-8">Eco Responsable et durable, jeter n'est pas une option ! Vos affaires
@@ -135,13 +138,13 @@
 <div id="controls-carousel" class="relative w-11/12 mx-auto" data-carousel="static">
     <!-- Carousel wrapper -->
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-        <!-- Item 1 -->
+        <!-- Premier slide -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <a href="./html/catalogue.html" class="hover:opacity-70"><img src="./img/caroussel-1.jpg"
                                                                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                                                                    alt="Image Caroussel"></a>
         </div>
-        <!-- Item 2 -->
+        <!-- Deuxième slide -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
             <a href="./html/catalogue.html" class="hover:opacity-70">
 
@@ -150,7 +153,7 @@
                      class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                      alt="Image caroussel 2"> </a>
         </div>
-        <!-- Item 3 -->
+        <!-- Troisième slide -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <a href="./html/catalogue.html" class="hover:opacity-70">
 
@@ -158,14 +161,14 @@
                 <img src="./img/caroussel-3.jpg"
                      class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Image"> </a>
         </div>
-        <!-- Item 4 -->
+        <!-- 4ième slide -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <a href="./html/catalogue.html" class="hover:opacity-70">
 
                 <img src="./img/caroussel-4.jpg"
                      class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Image"></a>
         </div>
-        <!-- Item 5 -->
+        <!-- 5ème slide -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <a href="./html/catalogue.html" class="hover:opacity-70">
 
@@ -173,7 +176,7 @@
                      class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Image"></a>
         </div>
     </div>
-    <!-- Slider controls -->
+    <!-- Bouton pour controler le slide (prev et next) -->
     <button type="button"
             class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             data-carousel-prev>
@@ -199,14 +202,14 @@
         </span>
     </button>
 </div>
-
+<!--Bouton catalogue-->
 <a href="./html/catalogue.html">
     <button class="bouton-populaires mt-5 mb-20">Voir notre catalogue !</button>
 </a>
 <!--Fin Section Lucaroussel Fin Section Caroussel Fin Section Caroussel Fin Section Caroussel Fin Section Caroussel -->
 
 <!--Début Section Catégories Début Section CatégoriesDébut Section CatégoriesDébut Section CatégoriesDébut Section CatégoriesDébut Section CatégoriesDébut Section Catégories-->
-
+<!--Première partie de la section-->
 <section class="bg-white dark:bg-gray-900">
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
@@ -220,6 +223,7 @@
                 <button class="bouton-populaires">Voir notre catalogue !</button>
             </a>
         </div>
+<!--        Les images, j'utilise "mt-4/mt-10" pour avoir l'effet de l'image-->
         <div class="grid grid-cols-2 gap-4 mt-8">
             <a href="./html/catalogue.html"><img class="w-full rounded-lg"
                                           src="./img/chaus-1-vertical.jpg"
@@ -230,6 +234,7 @@
         </div>
 
     </div>
+    <!--        Les images, j'utilise "mt-4/mt-10" pour avoir l'effet de l'image-->
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="grid grid-cols-2 gap-4 mt-8">
             <a href="./html/catalogue.html"><img class="w-full rounded-lg"
@@ -274,7 +279,7 @@
 
             <button type="submit" class="flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">S'inscrire</button>
         </form>
-
+<!--Mon SVG pour l'effet vert-->
         <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2"
              aria-hidden="true">
             <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7">
@@ -299,7 +304,9 @@
 
     <footer class="bg-white dark:bg-gray-900">
         <div class="mx-auto w-full max-w-screen-xl">
+<!--            Grid pour gerer les col et responsive-->
             <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+<!--                1er col-->
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">RE:Style</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
@@ -318,6 +325,7 @@
                     </ul>
                 </div>
                 <div>
+<!--                    2eme col-->
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Centre d'aide</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
@@ -335,20 +343,22 @@
                     </ul>
                 </div>
                 <div>
+<!--                    3eme col-->
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Mentions</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
-                            <a href="mentions.html" class="hover:underline">Mentions légales</a>
+                            <a href="./html/mentions.html" class="hover:underline">Mentions légales</a>
                         </li>
                         <li class="mb-4">
-                            <a href="CGU.html" class="hover:underline">Conditions Générales d'utilisation</a>
+                            <a href="./html/CGU.html" class="hover:underline">Conditions Générales d'utilisation</a>
                         </li>
                         <li class="mb-4">
-                            <a href="confiance.html" class="hover:underline">Pourquoi nous faire confiance?</a>
+                            <a href="./html/confiance.html" class="hover:underline">Pourquoi nous faire confiance?</a>
                         </li>
                     </ul>
                 </div>
                 <div>
+<!--                    4eme col-->
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Visitez notre
                         site</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
@@ -370,6 +380,7 @@
             <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
         <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2077 <a href="https://restyle.fr/">Re:Style™</a>. Tous Cyber Punk réservés.
         </span>
+<!--                mes icones (fontawespme)-->
                 <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse text-gray">
                     <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f text-gray-400 hover-footer"></i></a>
                     <span class="sr-only">Page Facebook</span>
@@ -392,6 +403,7 @@
             </div>
         </div>
     </footer>
+<!--scripts -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 

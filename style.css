@@ -27,7 +27,7 @@ header {
     top: 0;
     left: 0;
 }
-
+/*fontawesome*/
 .fa-solid {font-size: 2rem; margin: 3px; transition: .5s;}
 
 .fa-solid:hover {color: #810707; scale: 1.1; transition: scale 1s;}
@@ -41,7 +41,7 @@ header {
     transition: 0.5s;
     color: #ecd6b5;
 }
-
+/*section hero*/
 .bouton-hero {
     background-color: #CDF0A8;
     color: #2d2c2c;
@@ -65,7 +65,7 @@ header {
     font-family: 'Poppins'!important;
 }
 
-
+/*populaires*/
 .bouton-populaires {
     display: flex;
     margin: 10px auto;

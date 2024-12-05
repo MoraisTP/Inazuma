@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="fr">
 <head>
+<!--    metas-->
     <meta charset="UTF-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta name="description"
@@ -11,6 +12,7 @@
     <meta content="Re-style : La boutique ultime de la deuxième main ! Donnez vie à vos vielles affaires..."
           property="og:description"/>
     <meta content="https://michalsnik.github.io/aos/" property="og:url"/>
+<!--    links-->
     <script src="https://kit.fontawesome.com/26d2d5baaa.js" crossorigin="anonymous"></script>
     <link href="../favicon.svg" rel="shortcut icon" type="image/x-icon">
     <link href="../style.css" rel="stylesheet">
@@ -19,6 +21,7 @@
 
 </head>
 <body>
+<!--début header-->
 <header class='border-b bg-[#F7F3E9] font-sans min-h-[60px] px-10 py-3 relative tracking-wide relative z-50 position: fixed'>
     <div class='flex flex-wrap items-center max-lg:gap-y-6 max-sm:gap-x-4'>
         <a href="../index.html"><img src="../img/logo_restyle-trnsparent.png" alt="logo" class='w-12'/>
@@ -113,7 +116,7 @@
     <section class="bg-white">
         <h2 class="section-h2">Vos favoris</h2>
         <div class="p-1 flex flex-wrap items-center justify-center">
-
+<!--4 rticles-->
             <div id="article1"
                  class="flex-shrink-0 m-6 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-lg group">
                 <svg class="absolute bottom-0 left-0 mb-8 scale-150 group-hover:scale-[1.65] transition-transform"
@@ -136,6 +139,7 @@
                     </div>
                 </div>
             </div>
+<!--            article 2-->
             <div id="article2"
                  class="flex-shrink-0 m-6 relative overflow-hidden bg-teal-500 rounded-lg max-w-xs shadow-lg group">
                 <svg class="absolute bottom-0 left-0 mb-8 scale-150 group-hover:scale-[1.65] transition-transform" viewBox="0 0 375 283" fill="none"
@@ -158,6 +162,7 @@
                     </div>
                 </div>
             </div>
+<!--            article 3-->
             <div id="article3"
                  class="flex-shrink-0 m-6 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-lg group">
                 <svg class="absolute bottom-0 left-0 mb-8 scale-150 group-hover:scale-[1.65] transition-transform" viewBox="0 0 375 283" fill="none"
@@ -180,6 +185,7 @@
                     </div>
                 </div>
             </div>
+<!--            article 4-->
             <div id="article4"
                  class="flex-shrink-0 m-6 relative overflow-hidden bg-teal-500 rounded-lg max-w-xs shadow-lg group">
                 <svg class="absolute bottom-0 left-0 mb-8 scale-150 group-hover:scale-[1.65] transition-transform" viewBox="0 0 375 283" fill="none"
@@ -204,11 +210,10 @@
             </div>
         </div></section>
 </main>
-<!--Début footer Début footer Début footer Début footer Début footer Début footer Début footer-->
-<!--Début footer Début footer Début footer Début footer Début footer Début footer Début footer-->
-<!--Début footer Début footer Début footer Début footer Début footer Début footer Début footer-->
 
-
+<!--Début footer Début footer Début footer Début footer Début footer Début footer Début footer-->
+<!--Début footer Début footer Début footer Début footer Début footer Début footer Début footer-->
+<!--Début footer Début footer Début footer Début footer Début footer Début footer Début footer-->
 <footer class="bg-white dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl">
         <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
@@ -304,10 +309,11 @@
         </div>
     </div>
 </footer>
+<!--scripit tail/flow-->
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 
-<!--Script TailWind-->
+<!--Script TailWind menu-->
 <script>var toggleOpen = document.getElementById('toggleOpen');
 var toggleClose = document.getElementById('toggleClose');
 var collapseMenu = document.getElementById('collapseMenu');
@@ -322,6 +328,7 @@ function handleClick() {
 
 toggleOpen.addEventListener('click', handleClick);
 toggleClose.addEventListener('click', handleClick);</script>
+<!--script pour cacher mes éléments (cacher >display>none)-->
 <script>
     function cacher() {
         document.getElementById('article1').style.display = 'none';
