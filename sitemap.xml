@@ -1,46 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://cineflix.fr/index.html</loc>
+        <loc>https://www.restyle.fr/index.html</loc>
         <lastmod>2024-11-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://https://cineflix.fr/horreur.htmll</loc>
+        <loc>https://www.restyle.fr/catalogue.html</loc>
         <lastmod>2024-11-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://https://cineflix.fr/comedie.html</loc>
+        <loc>https://www.restyle.fr/profil.html</loc>
         <lastmod>2024-11-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://cineflix.fr/fantastique.html</loc>
+        <loc>https://www.restyle.fr/contact.html</loc>
         <lastmod>2024-11-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://cineflix.fr/romance.html</loc>
-        <lastmod>2024-11-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>  <url>
-    <loc>https://cineflix.fr/fiction.html</loc>
-    <lastmod>2024-11-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-    <url>
-        <loc>https://cineflix.fr/anime.html</loc>
+        <loc>https://www.restyle.fr/inscription.html</loc>
         <lastmod>2024-11-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
-
 
 </urlset>
