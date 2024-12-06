@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1b829e-28ed-405f-908b-316eac5afd51" name="Changes" comment="fix robot" />
+    <list default="true" id="ac1b829e-28ed-405f-908b-316eac5afd51" name="Changes" comment="ajust h1 pages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733407030756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ajust h1 pages">
+      <option name="closed" value="true" />
+      <created>1733477892986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733477892986</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add html/css/img" />
     <MESSAGE value="fix robot" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix robot" />
+    <MESSAGE value="ajust h1 pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajust h1 pages" />
   </component>
 </project>
