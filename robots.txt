@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /mentions
+Disallow: /cgu
+
+Sitemap: https://www.restyle.fr/sitemap.xml
